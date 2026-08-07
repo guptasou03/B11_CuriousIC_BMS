@@ -12,9 +12,9 @@
 # Project metadata (used for documentation / review)
 # ======================================================
 project:
-  title: "PDK test"             # Project title (e.g. "Simple CPU", "PLL", "ADC")
-  team: ""                      # Your Team name
-  discord: ""                   # Optional: Discord username (for support / communication)
-  description: "PDK test data"  # Short one-line description
-  lvs_config: "<relative-path-to-lvs_config.json>"
+  title: "Battery Management System"             # Project title (e.g. "Simple CPU", "PLL", "ADC")
+  team: "B11 CuriousIC"                      # Your Team name
+  discord: "darshanshet2004"                   # Optional: Discord username (for support / communication)
+  description: "A design of battery management system comprising of instrumentaion amplifiers, data converters and choppers"  # Short one-line description
+  lvs_config: "https://github.com/guptasou03/B11_CuriousIC_BMS/blob/main/lvs_config.json"
 
