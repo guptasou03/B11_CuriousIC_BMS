@@ -26,5 +26,5 @@
 	"LVS_VERILOG_FILES": [
 		""
 	],
-	"LAYOUT_FILE": "https://github.com/guptasou03/B11_CuriousIC_BMS/blob/main/B11_CuriousIC_DryRun_Top.gds"
+	"LAYOUT_FILE": "$UPRJ_ROOT/B11_CuriousIC_DryRun_Top.gds"
 }
