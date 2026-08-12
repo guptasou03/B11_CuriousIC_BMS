@@ -16,5 +16,5 @@ project:
   team: "B11 CuriousIC"                      # Your Team name
   discord: "darshanshet2004"                   # Optional: Discord username (for support / communication)
   description: "A design of battery management system AFE comprising of instrumentaion amplifiers, data converters and choppers"  # Short one-line description
-  lvs_config: "https://github.com/guptasou03/B11_CuriousIC_BMS/blob/main/lvs_config.json"
+  lvs_config: "$UPRJ_ROOT/lvs_config.json"
 
