@@ -28,14 +28,19 @@ project:
       io_type: power
     - name: B11_BMS_VINN_CH1
       io_type: analog
+      secondary_esd: false
     - name: B11_BMS_VINP_CH1
       io_type: analog
+      secondary_esd: false
     - name: B11_BMS_VREFP
       io_type: analog
+      secondary_esd: false
     - name: B11_BMS_IBIAS_5u
       io_type: analog
+      secondary_esd: false
     - name: B11_BMS_VCM
       io_type: analog
+      secondary_esd: false
     - name: B11_BMS_VINN_CH2
       io_type: bidirectional
     - name: B11_BMS_VINP_CH2
@@ -60,6 +65,7 @@ project:
       io_type: input_cmos
     - name: B11_BMS_ATB_IA_ADC
       io_type: analog
+      secondary_esd: false
     - name: B11_BMS_DOUT
       io_type: input_cmos
   
