@@ -26,5 +26,5 @@
 	"LVS_VERILOG_FILES": [
 		""
 	],
-	"LAYOUT_FILE": "$UPRJ_ROOT/B11_CuriousIC_DryRun_Top.gds"
+	"LAYOUT_FILE": "$UPRJ_ROOT/B11_CuriousIC_DryRun_Top_23Aug.gds"
 }
