@@ -17,4 +17,50 @@ project:
   discord: "darshanshet2004"                   # Optional: Discord username (for support / communication)
   description: "A design of battery management system AFE comprising of instrumentaion amplifiers, data converters and choppers"  # Short one-line description
   lvs_config: "$UPRJ_ROOT/lvs_config.json"
+  pins:
+    - name: B11_BMS_AVSS
+      io_type: ground
+    - name: B11_BMS_CLKIN
+      io_type: input_cmos
+    - name: B11_BMS_CLK_FCHOP
+      io_type: input_cmos
+    - name: B11_BMS_DVDD
+      io_type: power
+    - name: B11_BMS_VINN_CH1
+      io_type: analog
+    - name: B11_BMS_VINP_CH1
+      io_type: analog
+    - name: B11_BMS_VREFP
+      io_type: analog
+    - name: B11_BMS_IBIAS_5u
+      io_type: analog
+    - name: B11_BMS_VCM
+      io_type: analog
+    - name: B11_BMS_VINN_CH2
+      io_type: bidirectional
+    - name: B11_BMS_VINP_CH2
+      io_type: bidirectional
+    - name: B11_BMS_EN_EIS
+      io_type: input_cmos
+    - name: B11_BMS_EIS_RESET
+      io_type: input_cmos
+    - name: B11_BMS_EN_BIAS
+      io_type: input_cmos
+    - name: B11_BMS_AVDD
+      io_type: power
+    - name: B11_BMS_CH_SEL
+      io_type: input_cmos
+    - name: B11_BMS_ATB_SEL_0
+      io_type: input_cmos
+    - name: B11_BMS_ATB_SEL_1
+      io_type: input_cmos
+    - name: B11_BMS_D_EIS
+      io_type: input_cmos
+    - name: B11_BMS_CLK_EIS
+      io_type: input_cmos
+    - name: B11_BMS_ATB_IA_ADC
+      io_type: analog
+    - name: B11_BMS_DOUT
+      io_type: input_cmos
+  
 
