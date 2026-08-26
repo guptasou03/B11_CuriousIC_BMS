@@ -50,8 +50,8 @@ pins:
     io_type: input_cmos
   - name: B11_BMS_EIS_RESET
     io_type: input_cmos
-  - name: B11_BMS_EN_BIAS
-    io_type: input_cmos
+  - name: B11_BMS_AVSS
+    io_type: ground
   - name: B11_BMS_AVDD
     io_type: power
   - name: B11_BMS_CH_SEL
