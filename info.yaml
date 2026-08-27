@@ -19,7 +19,7 @@ project:
   lvs_config: "$UPRJ_ROOT/lvs_config.json"
 
 pins:
-  - name: B11_BMS_AVSS
+  - name: B11_BMS_DVSS
     io_type: ground
   - name: B11_BMS_CLKIN
     io_type: input_cmos
